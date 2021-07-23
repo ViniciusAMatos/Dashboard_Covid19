@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  font-family: 'Roboto';
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+header{
+  display: flex;
+  justify-content:center;
+  
+}
+
+
+.menu_principal{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 30px;
+  box-shadow: #363636;
+}
+
+
+.top-bar-container{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6ad4b2;
+  padding: 1.6rem 0;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+
+section{
+  display: flex;
+  justify-content: center;
+  
+}
+.backgroundImagem{
+  background-position: bottom;
+  background-size: cover;
+  background-image: url(imagem/face-mask-5619233_1280.png);
+  height: 200px;
+  width: 900px;
+}
+
+.centro{
+  display: flex;
+  justify-content: center;
+}
+.centro_coluna{
+  align-items: center;
+}
+.centro_coluna_coluna{
+  flex-direction: column;
+  align-items: center;
+}
+
+.item_menu_logo{
+  width: 75px;
+  height: 75px;
+}
+
+.item_menu{
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+.menu_principal .item_menu a{
+  text-decoration: none;
+  color: #363636;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.menu_principal .item_menu2 a{
+  text-decoration: none;
+  color: 	#363636;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.menu_principal .item_menu2 a:hover{
+  color: #6AD4B2;
+}
+
+.menu_principal .item_menu a:hover{
+  color: #6AD4B2;
+}
+#informacao_coronavirus{
+  width: 300px;
+  height: 400px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: black;
+
+}
+
+
+@media only screen and (max-width: 1006px) {
+  .tabela1{
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .tabela2{
+    display:none;
+  }
+}
+@media only screen and (max-width: 516px) {
+  #logo_informacao{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 433px) {
+  .menu_principal{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+
+}
+
+
+.tabela1{
+background: #f3faf8;
+}
+.tabela2{
+background: #f3faf8;
+}
+
+
+.espaco{
+  background-color: #f8f8f0;
+  height: 100px;
+}
+
+
+
+/*EXTRA PÁGINA DE SOBRE*/
+
+.centralizar_sobre{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre{
+
+  height: 100px;
+  width: 400px;
+}
+.centralizar_sobre .sobre p{
+  border-top: 2px solid black;
+  font-weight: 600;
+  font-size: 15px;
+}
+.imagem_sobre{
+  background-image: url(imagem/about.png);
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  border: none;
+}
+
+.centralizar_comoseproteger{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.comoseproteger{
+  display: flex;
+  justify-content: space-around;
+  height: 300x;
+  width: 900px;
+}
+.centralizar_comoseproteger .comoseproteger p{
+  border-top: 2px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.comoseproteger_paragrafo{
+  flex: 1;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.comoseproteger_imagem{
+  flex: 1;
+  background-image: url(imagem/comoseproteger.png);
+  width: 100px;
+  height: 250px;
+  background-position: right;
+  background-size: cover;
+}
+
+.comoseproteger_imagem_2{
+  flex: 1;
+  background-image: url(imagem/comoseproteger_2.png);
+  width: 100px;
+  height: 250px;
+  background-position: right;
+  background-size: cover;
+}
+
+.comoseproteger_imagem_3{
+  flex: 1;
+  background-image: url(imagem/comoseproteger_3.png);
+  width: 100px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+.comoseproteger_imagem_4{
+  flex: 1;
+  background-image: url(imagem/comoseproteger_4.png);
+  width: 100px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
